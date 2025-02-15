@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "vbe",
+	"version": "${version}",
+	"name": "vbe",
+	"description": "Makes block entities render everywhere inside your render distance",
+	"authors": ["yo56789"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/vbe/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"io.github.yo56789.VisibleBlockEntitiesMain"
+		]
+	},
+	"mixins": [
+		"vbe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "~1.21"
+	}
+}
